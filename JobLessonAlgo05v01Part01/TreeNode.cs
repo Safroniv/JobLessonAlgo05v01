@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace JobLessonAlgo05v01Part01
+﻿namespace JobLessonAlgo05v01Part01
 {
     public class TreeNode
     {

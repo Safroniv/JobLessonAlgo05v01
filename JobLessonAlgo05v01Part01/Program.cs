@@ -3,7 +3,7 @@
 using JobLessonAlgo05v01Part01;
 
 
-BfsDfsSort bdsDfsSort = new BfsDfsSort();
+BfsDfsSearch bdsDfsSort = new BfsDfsSearch();
 bdsDfsSort.RandomTree(100);
 int search = new Random().Next(10000);
 

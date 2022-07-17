@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace JobLessonAlgo05v01Part01
+﻿namespace JobLessonAlgo05v01Part01
 {
-    public class BfsDfsSort
+    public class BfsDfsSearch
     {
         private TreeNode? _root;
         public TreeNode? Root { get { return _root; } set { _root = value; } }
@@ -59,7 +53,7 @@ namespace JobLessonAlgo05v01Part01
         /// </summary>
         /// <param name="value">значения нод поиска в ширину BFS</param>
         /// <returns>значение ноды или ничего</returns>
-        public TreeNode BFSearch (int value)
+        public TreeNode BFSearch(int value)
         {
             Console.WriteLine("\n");
             Console.WriteLine(new string('*', 50));
