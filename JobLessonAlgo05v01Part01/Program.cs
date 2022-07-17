@@ -1,10 +1,14 @@
-﻿
+﻿//Реализовать DFS и BFS для дерева с выводом каждого шага в консоль
 
-//Реализовать  DFS и BFS для дерева с выводом каждого шага в консоль
+using JobLessonAlgo05v01Part01;
 
-Console.WriteLine("Hello, World!");
 
-public class TreeNode
-{
-    public int Value { get; set; }
-}
+BfsDfsSort bdsDfsSort = new BfsDfsSort();
+bdsDfsSort.RandomTree(100);
+int search = new Random().Next(10000);
+
+TreeNode bFSearch = bdsDfsSort.BFSearch(search);
+string textBFS = bFSearch != null ? bFSearch.Value.ToString() : "пустой";
+
+TreeNode dFSearch = bdsDfsSort.DFSearch(search);
+string textDFS = dFSearch != null ? dFSearch.Value.ToString() : "пустой";
